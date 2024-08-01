@@ -15,6 +15,11 @@ Application can be initiated with command [node index.js]
 
 GitHub Repository Link: https://github.com/Cyrus8685/SVGLogoMaker
 
-Deployed Application Link:
+Deployed Application Link: https://cyrus8685.github.io/SVGLogoMaker/
 
 Video Demonstation Walkthrough:
+
+
+
+https://github.com/user-attachments/assets/0172fda2-7607-47fc-a0f2-b36126a2311a
+
