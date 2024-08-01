@@ -1,9 +1,6 @@
 # SVGLogoMaker
 SVGLogoMaker
 
-# SVGLogoMaker
-SVGLogoMaker
-
 Created NodsJs App to Create a Shape and Test Logo Based on User Input.
 
 App requires user in put to select Preferred shape based on given options
@@ -16,7 +13,7 @@ After the questions have been answered the file is generated and stored in the E
 
 Application can be initiated with command [node index.js]
 
-GitHub Repository Link: 
+GitHub Repository Link: https://github.com/Cyrus8685/SVGLogoMaker
 
 Deployed Application Link:
 
