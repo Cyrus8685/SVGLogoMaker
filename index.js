@@ -2,7 +2,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const questions = require('./lib/questions.js');
 const fileName = "./examples/logo.svg";
-const setShape = require('./lib/setShape.js')
+const setShape = require('./lib/setShape.js');
+const prompt = inquirer.createPromptModule();
 
 // function to create new svg file using inquirer response and file system
 function createLogo(response) {
@@ -12,9 +13,7 @@ function createLogo(response) {
 
 // initialize, ask questions then createLogo using responses, catch any errors
 function init() {
-    inquirer 
-    .prompt(questions)
-    .then((response) => {
+    prompt(questions).then((response) => {
         createLogo(response);
         })
     .catch(err => {
